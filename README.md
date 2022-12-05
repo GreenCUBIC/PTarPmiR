@@ -14,7 +14,8 @@ microRNAs (miRNAs) are small non-coding ribonucleic acids that post-transcriptio
 * See the original [TarPmiR Manual](http://hulab.ucf.edu/research/projects/miRNA/TarPmiR) for dowload, setup and installation 
 * Then replace the existing `TarPmiR.py` file with the one in this repo.
 * Add the `parallel_TarPmiR.py` file to the same directory as the `TarPmiR.py` 
-* Copy all models in the `models` directory of this repo to the TarPmiR model directory
+* Copy all models in the `models` directory of this repo to the TarPmiR models directory
+    * Some models may require unzip-ing before use  
 
 ### Executing program
 

@@ -33,6 +33,11 @@ parallel_TarPmiR.py -a example/miR -b example/mRNAs -c models/Human.pkl -p 0.5 -
 * Plant + Human model trained on TarDB and avallable human data (See journal) -> plant_Human_Dec_4_2022.pkl
 * ath + Human model trained avallable human data and A. thaliana (See journal) -> ath_human.pkl
 
+### Webserver 
+A weserver is also avalible for use: [PTarPmiR](https://ptarpmir.cu-bic.ca/)
+
+Note: Maximum file size is 100 KB or 100 000 characters
+
 ## Authors
 
 Contributors names and contact info

@@ -11,7 +11,10 @@ microRNAs (miRNAs) are small non-coding ribonucleic acids that post-transcriptio
 
 ### Dependencies and Installing
 
-* See the original [TarPmiR Manual](http://hulab.ucf.edu/research/projects/miRNA/TarPmiR) for dowload, setup and installation 
+* See the original [TarPmiR Manual](http://hulab.ucf.edu/research/projects/miRNA/TarPmiR) for dowload, setup and installation
+  * Note that their document may indicate that Python 2.7 is required; instead, Python 3.8 is actually required.
+  * Note also that the pickled model files require downgrading to sklearn version 1.0.2. Otherwise, errors will be thrown when loading the pre-trained models and correct execution is not guaranteed.
+  * (Thank you to Filippo Bergeretti for pointing out these discrepancies)
 * Then replace the existing `TarPmiR.py` file with the one in this repo.
 * Add the `parallel_TarPmiR.py` file to the same directory as the `TarPmiR.py` 
 * Copy all models in the `models` directory of this repo to the TarPmiR models directory
